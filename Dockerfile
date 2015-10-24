@@ -6,8 +6,8 @@ MAINTAINER K.B. Name <kb@socialmoon.com>
 
 ENV HDFS_HOST hdfs://hdfs:9000
 
-ENV NEO4j_VERSION community-2.2.3
-#ENV NEO4j_VERSION enterprise-2.2.3
+#ENV NEO4j_VERSION community-2.2.2
+ENV NEO4j_VERSION enterprise-2.2.2
 
 # Install Neo4j
 RUN apt-get update && \
